@@ -1,7 +1,7 @@
 "*": |-
   翻訳者への注意：まだ翻訳されていないキーには、先頭にアスタリスク（*）が付いています。翻訳するときはアスタリスクを削除してください。プレースホルダー（パーセント記号の後にフォーマット文字列が続く、たとえば%s、%i、%fなど）はそのままにしておいてください。
 "!author": |-
-  FlorianHöch
+  rilponi
 "!language": |-
   日本語
 "!language_name": |-
@@ -165,7 +165,7 @@
 "adjust_rolloff": |-
   ロールオフを調整する
 "advanced": |-
-  高度
+  アドバンスド
 "allow_skip_sensor_cal": |-
   機器のセルフキャリブレーションのスキップを許可する
 "ambient.measure": |-
@@ -205,7 +205,7 @@
 "app.otherinstance.notified": |-
   すでに実行中のインスタンスに通知されました。
 "apply": |-
-  申し込み
+  適用
 "apply_black_output_offset": |-
   黒の出力オフセットを適用（100%）
 "apply_cal": |-
@@ -278,7 +278,7 @@
 "autostart_remove_old": |-
   古い自動開始エントリを削除する
 "backing_xyz": |-
-  バッキングXYZ
+  Backing XYZ
 "backlight": |-
   バックライト
 "bitdepth": |-
@@ -342,7 +342,7 @@
 "calibrate_instrument": |-
   機器のセルフキャリブレーション
 "calibration": |-
-  較正
+  キャリブレーション
 "calibration.ambient_viewcond_adjust": |-
   周囲光レベル調整
 "calibration.ambient_viewcond_adjust.info": |-
@@ -733,7 +733,7 @@
 "contrast": |-
   コントラスト
 "contribute": |-
-  助ける
+  寄付する
 "converting": |-
   変換
 "copyright": |-
@@ -851,7 +851,7 @@
 "dialog.linear_cal_info": |-
   線形検量線が使用されます。続けますか？
 "dialog.load_cal": |-
-  負荷設定
+  ロードセッティング
 "dialog.select_argyll_version": |-
   ArgyllCMSのバージョン%sが見つかりました。現在選択されているバージョンは%sです。新しいバージョンを使用しますか？
 "dialog.set_argyll_bin": |-
@@ -1188,7 +1188,7 @@
 "filename": |-
   ファイル名
 "filename.upload": |-
-  ファイル名をアップロード
+  アップロードファイル名
 "filetype.7z": |-
   7-Zipファイル
 "filetype.any": |-
@@ -1497,9 +1497,9 @@
 "instrument.calibrate.spyderx": |-
   計器に遮光キャップを付けるか、暗くてつや消しの表面に置き、OKを押して計器を自己校正します。
 "instrument.calibrating": |-
-  校正器...
+  計測器のキャリブレーション中...
 "instrument.colormunki": |-
-  ColorMunkiデザイン/写真、i1Studio
+  ColorMunki Design/Photo, i1Studio
 "instrument.connect": |-
   今すぐ測定器を接続してください。
 "instrument.initializing": |-
@@ -1571,7 +1571,7 @@ level": |-
 "madvr.wrong_levels_detected": |-
   RGB レベル 0 と 16 の間で測定された輝度差は、0.02cd /m²未満です。 グラフィックカードドライバがフルレンジ RGB（0-255） を出力するように設定されている場合、ディスプレイデバイスの入力および/または黒レベル設定が正しくないか、グラフィックカードまたは madVR の出力レベル構成が間違っています。 ディスプレイデバイスの madVR の出力レベルをTVレベル （16〜235） に変更してください。
 "magenta": |-
-  赤紫色
+  マゼンタ
 "make_and_model": |-
   作成とモデル化
 "manufacturer": |-
@@ -1622,7 +1622,7 @@ level": |-
 "measurement.play_sound": |-
   連続測定に関する音響フィードバック
 "measurement.untethered": |-
-  繋がれていない測定
+  アンテザー測定
 "measurement_file.check_sanity": |-
   測定ファイルを確認してください...
 "measurement_file.check_sanity.auto": |-
@@ -2109,7 +2109,7 @@ level": |-
 "remove": |-
   削除する
 "rendering_intent": |-
-  レンダリングの意図
+  レンダリングインテント
 "report": |-
   報告する
 "report.calibrated": |-
@@ -2467,7 +2467,7 @@ level": |-
 "use_separate_lut_access": |-
   別のビデオカードガンマテーブルアクセスを使用する
 "use_simulation_profile_as_output": |-
-  シミュレーションプロファイルを表示プロファイルとして使用する
+  シミュレーションプロファイルとしてディスプレイプロファイルを使用する
 "vcgt": |-
   検量線
 "vcgt.mismatch": |-
