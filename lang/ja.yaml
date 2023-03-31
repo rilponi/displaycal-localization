@@ -1,5 +1,5 @@
 "*": |-
-  翻訳者への注意：まだ翻訳されていないキーには、先頭にアスタリスク（*）が付いています。翻訳するときはアスタリスクを削除してください。プレースホルダー（パーセント記号の後にフォーマット文字列が続く、たとえば%s、%i、%fなど）はそのままにしておいてください。
+  翻訳者への注意：まだ翻訳されていないキーには、先頭にアスタリスク (*) が付いています。翻訳するときはアスタリスクを削除してください。プレースホルダー (パーセント記号の後にフォーマット文字列が続く、たとえば%s、%i、%fなど) はそのままにしておいてください。
 "!author": |-
   rilponi
 "!language": |-
@@ -9,13 +9,13 @@
 "3dlut": |-
   3D LUT
 "3dlut.1dlut.videolut.nonlinear": |-
-  ディスプレイデバイスのビデオカードガンマテーブルの 1D LUT キャリブレーションは非線形ですが、3D LUT には適用された 1D LUT キャリブレーションが含まれています。 3D LUT を使用する前に、ビデオカードのガンマテーブルを手動で線形にリセットするか、キャリブレーションを適用せずに 3D LUT を作成してください（後者を行うには、[オプション]メニューの[詳細オプションを表示]を有効にし、[キャリブレーションの適用]を無効にします（vcgt）」と同様に、3D LUT 設定の「プロファイリング後に 3D LUT を作成」してから、新しい 3D LUT を作成します）。
+  ディスプレイデバイスのビデオカードガンマテーブルの 1D LUT キャリブレーションは非線形ですが、3D LUT には適用された 1D LUT キャリブレーションが含まれています。 3D LUT を使用する前に、ビデオカードのガンマテーブルを手動で線形にリセットするか、キャリブレーションを適用せずに 3D LUT を作成してください (後者を行うには、[オプション]メニューの[詳細オプションを表示]を有効にし、[キャリブレーションの適用]を無効にします (vcgt) 」と同様に、3D LUT 設定の「プロファイリング後に 3D LUT を作成」してから、新しい 3D LUT を作成します) 。
 "3dlut.bitdepth.input": |-
   3D LUT 入力ビット深度
 "3dlut.bitdepth.output": |-
   3D LUT 出力ビット深度
 "3dlut.confirm_relcol_rendering_intent": |-
-  3D LUT で測定された白色点も使用しますか？（3D LUT レンダリングインテントは相対測色に設定されます）
+  3D LUT で測定された白色点を使用しますか？ (3D LUT レンダリングインテントは相対測色に設定されます) 
 "3dlut.content.colorspace": |-
   コンテンツの色空間
 "3dlut.create": |-
@@ -29,7 +29,7 @@
 "3dlut.encoding.output": |-
   出力エンコーディング
 "3dlut.encoding.output.warning.madvr": |-
-  警告：この出力エンコーディングは推奨されておらず、madVR が「デバイス」→「%s」→「プロパティ」で「TVレベル（16-235）」を出力するように設定されていない場合、クリッピングが発生します。自己責任で使用してください！
+  警告：この出力エンコーディングは推奨されておらず、madVR が「デバイス」→「%s」→「プロパティ」で「TVレベル (16-235) 」を出力するように設定されていない場合、クリッピングが発生します。自己責任で使用してください！
 "3dlut.encoding.type_2": |-
   TV Rec. 2020 YCbCr UHD
 "3dlut.encoding.type_5": |-
@@ -81,13 +81,13 @@
 "3dlut.frame.title": |-
   3D LUT を作成する
 "3dlut.hdr.rolloff.diffuse_white": |-
-  拡散白（参照94.38cd /m²）
+  拡散白 (参照94.38cd /m²) 
 "3dlut.hdr.system_gamma": |-
-  システムガンマ（参照1.2）
+  システムガンマ (参照1.2) 
 "3dlut.holder.assign_preset": |-
   3D LUT をプリセットに割り当てます。
 "3dlut.holder.out_of_memory": |-
-  %sは 3D LUT ストレージスペースが不足しています（少なくとも%i KBが必要です）。新しいもののためのスペースを作るために、%sからいくつかの 3D LUT を削除してください。詳細については、%sのドキュメントを参照してください。
+  %sは 3D LUT ストレージスペースが不足しています (少なくとも%i KBが必要です) 。新しいもののためのスペースを作るために、%sからいくつかの 3D LUT を削除してください。詳細については、%sのドキュメントを参照してください。
 "3dlut.input.colorspace": |-
   ソース色空間
 "3dlut.input.profile": |-
@@ -95,7 +95,7 @@
 "3dlut.install": |-
   3D LUT をインストールします
 "3dlut.install.failure": |-
-  3D LUT のインストールに失敗しました（不明なエラー）。
+  3D LUT のインストールに失敗しました (不明なエラー) 。
 "3dlut.install.success": |-
   3D LUT のインストールに成功しました！
 "3dlut.install.unsupported": |-
@@ -111,7 +111,7 @@
 "3dlut.tab.enable": |-
   3D LUT タブを有効にする
 "3dlut.use_abstract_profile": |-
-  抽象（「ルック」）プロファイル
+  アブストラクト (「ルック」) プロファイル
 "CMP_Digital_Target-3.cie": |-
   CMP Digital Target 3
 "CMP_Digital_Target-4.cie": |-
@@ -153,13 +153,13 @@
 "aborted": |-
   ...中止されました。
 "aborting": |-
-  中止します、お待ちください（これには数秒かかる場合があります）...
+  中止します、お待ちください (これには数秒かかる場合があります) ...
 "abstract_profile": |-
-  抽象的なプロファイル
+  アブストラクトプロファイル
 "active_matrix_display": |-
   アクティブマトリックスディスプレイ
 "adaptive_mode_unavailable": |-
-  アダプティブモードは、ArgyllCMS 1.1.0 RC3以降でのみ使用できます。
+  アダプティブモードは、ArgyllCMS 1.1.0 RC3 以降でのみ使用できます。
 "add": |-
   追加...
 "adjust_rolloff": |-
@@ -167,11 +167,11 @@
 "advanced": |-
   アドバンスド
 "allow_skip_sensor_cal": |-
-  機器のセルフキャリブレーションのスキップを許可する
+  計測器のセルフキャリブレーションのスキップを許可する
 "ambient.measure": |-
-  周囲を測定する
+  周囲光を測定する
 "ambient.measure.color.unsupported": |-
-  %s：周囲センサーが単色であるように見えるため（光レベルの読み取り値しか得られなかったため）、この機器を使用して周囲光の色を判別できませんでした。
+  %s：周囲光センサーが単色であるように見えるため (光レベルの読み取り値しか得られなかったため) 、この計測器を使用して周囲光の色を判別できませんでした。
 "ambient.measure.light_level.missing": |-
   ライトレベルの測定値が得られませんでした。
 "ambient.set": |-
@@ -207,9 +207,9 @@
 "apply": |-
   適用
 "apply_black_output_offset": |-
-  黒の出力オフセットを適用（100%）
+  黒の出力オフセットを適用 (100%) 
 "apply_cal": |-
-  キャリブレーションの適用（vcgt）
+  キャリブレーションの適用 (vcgt) 
 "apply_cal.error": |-
   キャリブレーションを適用できませんでした。
 "archive.create": |-
@@ -217,32 +217,32 @@
 "archive.import": |-
   アーカイブをインポート...
 "archive.include_3dluts": |-
-  アーカイブに3D LUT ファイルを含めますか（推奨されません。アーカイブファイルのサイズが大きくなります）。
+  アーカイブに3D LUT ファイルを含めますか (推奨されません。アーカイブファイルのサイズが大きくなります) 。
 "argyll.debug.warning1": |-
-  このオプションは、実際にデバッグ情報が必要な場合にのみ使用してください（ArgyllCMS 機能のトラブルシューティングなど）。 通常、ソフトウェア開発者が問題の診断と解決を支援する場合にのみ役立ちます。 デバッグ出力を有効にしてよろしいですか？
+  このオプションは、実際にデバッグ情報が必要な場合にのみ使用してください (ArgyllCMS 機能のトラブルシューティングなど) 。 通常、ソフトウェア開発者が問題の診断と解決を支援する場合にのみ役立ちます。 デバッグ出力を有効にしてよろしいですか？
 "argyll.debug.warning2": |-
   ソフトウェアの通常の操作のためにデバッグ出力を無効にすることを忘れないでください。
 "argyll.dir": |-
-  ArgyllCMS実行可能ディレクトリ：
+  ArgyllCMS 実行可能ディレクトリ：
 "argyll.dir.invalid": |-
-  ArgyllCMS実行可能ファイルが見つかりません！
-  実行可能ファイル（接頭辞または接尾辞「argyll-」/「-argyll」）を含むディレクトリを選択してください：%s
+  ArgyllCMS 実行可能ファイルが見つかりません！
+  実行可能ファイル (接頭辞または接尾辞「argyll-」/「-argyll」) を含むディレクトリを選択してください：%s
 "argyll.error.detail": |-
-  詳細なArgyllCMSエラーメッセージ：
+  詳細な ArgyllCMS エラーメッセージ：
 "argyll.instrument.configuration_files.install": |-
-  ArgyllCMS機器構成ファイルをインストールします。
+  ArgyllCMS 計測器構成ファイルをインストールします。
 "argyll.instrument.configuration_files.install.success": |-
-  ArgyllCMS機器構成ファイルのインストールが完了しました。
+  ArgyllCMS 計測器構成ファイルのインストールが完了しました。
 "argyll.instrument.configuration_files.uninstall": |-
-  ArgyllCMS機器構成ファイルをアンインストールします...
+  ArgyllCMS 計測器構成ファイルをアンインストールします...
 "argyll.instrument.configuration_files.uninstall.success": |-
-  ArgyllCMS機器構成ファイルのアンインストールが完了しました。
+  ArgyllCMS 計測器構成ファイルのアンインストールが完了しました。
 "argyll.instrument.driver.missing": |-
-  測定デバイス用の ArgyllCMS ドライバーがインストールされていないか、正しくインストールされていないようです。 測定デバイスが Windows のデバイスマネージャの「ArgyllLibUSB-1.0A デバイス」に表示されているかどうかを確認し、必要に応じてドライバを（再）インストールします。 インストール手順については、ドキュメントをお読みください。
+  測定デバイス用の ArgyllCMS ドライバーがインストールされていないか、正しくインストールされていないようです。 測定デバイスが Windows のデバイスマネージャの「ArgyllLibUSB-1.0A デバイス」に表示されているかどうかを確認し、必要に応じてドライバを (再) インストールします。 インストール手順については、ドキュメントをお読みください。
 "argyll.instrument.drivers.install": |-
-  ArgyllCMS計測器ドライバをインストールします...
+  ArgyllCMS 計測器ドライバをインストールします...
 "argyll.instrument.drivers.install.confirm": |-
-  ColorMunki Display、i1 Display Pro、Huey、ColorHug、specbos、spectrumval、または K-10 以外の測定器を使用している場合にのみ、ArgyllCMS 固有のドライバーをインストールする必要があります。
+  ColorMunki Display、i1 Display Pro、Huey、ColorHug、specbos、spectrumval、または K-10 以外の計測器を使用している場合にのみ、ArgyllCMS 固有のドライバーをインストールする必要があります。
   
   続行しますか？
 "argyll.instrument.drivers.install.failure": |-
@@ -252,7 +252,7 @@
 "argyll.instrument.drivers.uninstall": |-
   ArgyllCMS 計測器ドライバをアンインストールします...
 "argyll.instrument.drivers.uninstall.confirm": |-
-  注：アンインストールは、現在使用されている計測器ドライバーには影響しませんが、Windows のドライバーストアからドライバーを削除するだけです。 機器にインストールされているベンダー提供のドライバーに戻す場合は、Windows のデバイスマネージャーを使用して手動でベンダードライバーに切り替える必要があります。 これを行うには、機器を右クリックして[ドライバーソフトウェアの更新...]を選択し、[コンピューターでドライバーソフトウェアを参照する]、[コンピューター上のデバイスドライバーのリストから選択する]を選択し、最後にベンダーを選択します。 リストからあなたの楽器のためのドライバー。
+  注：アンインストールは、現在使用されている計測器ドライバーには影響しませんが、Windows のドライバーストアからドライバーを削除するだけです。 計測器にインストールされているベンダー提供のドライバーに戻す場合は、Windows のデバイスマネージャーを使用して手動でベンダードライバーに切り替える必要があります。 これを行うには、計測器を右クリックして[ドライバーソフトウェアの更新...]を選択し、[コンピューターでドライバーソフトウェアを参照する]、[コンピューター上のデバイスドライバーのリストから選択する]を選択し、最後にベンダーを選択します。 リストからあなたの楽器のためのドライバー。
   
   続行しますか？
 "argyll.instrument.drivers.uninstall.failure": |-
@@ -308,25 +308,25 @@
 "blue_lab": |-
   Blue L*a*b*
 "blue_matrix_column": |-
-  青マトリックスカラム
+  Blue matrix column
 "blue_maximum": |-
-  ブルーマキシマム
+  Blue maximum
 "blue_minimum": |-
-  ブルーミニマム
+  Blue minimum
 "blue_tone_response_curve": |-
   ブルートーンレスポンスカーブ
 "blue_xyz": |-
-  ブルーXYZ
+  Blue XYZ
 "bradford": |-
-  ブラッドフォード（ICC推奨）
+  ブラッドフォード (ICC推奨) 
 "brightness": |-
   輝度
 "browse": |-
   ブラウズ...
 "bs": |-
-  ビアンコ＆シェッティーニ
+  Bianco & Schettini
 "bs_pc": |-
-  陽性制約のあるBianco＆Schettini
+  Bianco & Schettini with positivity constraint
 "bug_report": |-
   バグを報告...
 "button.calibrate": |-
@@ -340,13 +340,13 @@
 "calculated_checksum": |-
   計算されたチェックサム
 "calibrate_instrument": |-
-  機器のセルフキャリブレーション
+  計測器のセルフキャリブレーション
 "calibration": |-
   キャリブレーション
 "calibration.ambient_viewcond_adjust": |-
   周囲光レベル調整
 "calibration.ambient_viewcond_adjust.info": |-
-  検量線を計算するときに表示条件の調整を実行するには、チェックボックスをオンにして、周囲光レベルを入力します。 機器でサポートされている場合は、オプションで周囲光を測定することもできます。
+  キャリブレーションカーブを計算するときに表示条件の調整を実行するには、チェックボックスをオンにして、周囲光レベルを入力します。 計測器でサポートされている場合は、オプションで周囲光を測定することもできます。
 "calibration.black_luminance": |-
   黒レベル
 "calibration.black_output_offset": |-
@@ -354,7 +354,7 @@
 "calibration.black_point_correction": |-
   ブラックポイント補正
 "calibration.black_point_correction_choice": |-
-  ブラックポイント補正をオフにして、黒レベルとコントラスト比を最適化するか（ほとんどの LCD モニターに推奨）、 またはオンにして黒を白点と同じ色相にすることができます（ほとんどの CRT モニターに推奨）。 ブラックポイント補正の設定を選択してください。
+  ブラックポイント補正をオフにして、黒レベルとコントラスト比を最適化するか (ほとんどの LCD モニターに推奨) 、 またはオンにして黒を白点と同じ色相にすることができます (ほとんどの CRT モニターに推奨) 。 ブラックポイント補正の設定を選択してください。
 "calibration.black_point_rate": |-
   割合
 "calibration.check_all": |-
@@ -370,7 +370,7 @@
 "calibration.do_not_use_video_lut.warning": |-
   本当に推奨設定を変更しますか？
 "calibration.embed": |-
-  プロファイルに検量線を埋め込む
+  プロファイルにキャリブレーションカーブを埋め込む
 "calibration.file": |-
   設定
 "calibration.file.invalid": |-
@@ -388,9 +388,9 @@
 "calibration.interactive_display_adjustment.check_all": |-
   「測定開始」を選択して、全体の設定を確認してください。
 "calibration.interactive_display_adjustment.generic_hint.plural": |-
-  すべてのバーを中央のマークされた位置に移動できれば、良好な一致が得られます。
+  全てのバーを中央のマークに合わせられると良好です。
 "calibration.interactive_display_adjustment.generic_hint.singular": |-
-  バーを中央のマークされた位置に移動できれば、良好な一致が得られます。
+  バーを中央のマークに合わせられると良好です。
 "calibration.interactive_display_adjustment.start": |-
   測定を開始します
 "calibration.interactive_display_adjustment.stop": |-
@@ -398,7 +398,7 @@
 "calibration.interactive_display_adjustment.white_level.crt": |-
   「測定の開始」を選択し、ディスプレイのコントラストや RGB ゲインコントロールを希望のレベルに一致するように調整します。
 "calibration.interactive_display_adjustment.white_level.lcd": |-
-  「測定開始」を選択し、ディスプレイのバックライト/輝度コントロールを希望のレベルに一致するように調整します。
+  「測定の開始」を選択し、ディスプレイのバックライト/輝度コントロールを希望のレベルに一致するように調整します。
 "calibration.interactive_display_adjustment.white_point": |-
   「測定の開始」を選択し、ディスプレイの色温度や RGB ゲインコントロールを調整して、目的の白色点に一致させます。
 "calibration.load": |-
@@ -406,23 +406,23 @@
 "calibration.load.handled_by_os": |-
   キャリブレーションの読み込みは、オペレーティングシステムによって処理されます。
 "calibration.load_error": |-
-  検量線を読み込めませんでした。
+  キャリブレーションカーブを読み込めませんでした。
 "calibration.load_from_cal": |-
-  キャリブレーションファイルから検量線をロードします。
+  キャリブレーションファイルからキャリブレーションカーブをロードします。
 "calibration.load_from_cal_or_profile": |-
-  キャリブレーションファイルまたはプロファイルから検量線をロードします。
+  キャリブレーションファイルまたはプロファイルからキャリブレーションカーブをロードします。
 "calibration.load_from_display_profile": |-
-  現在のディスプレイデバイスプロファイルから検量線をロードします
+  現在のディスプレイデバイスプロファイルからキャリブレーションカーブをロードします
 "calibration.load_from_display_profiles": |-
   現在のディスプレイデバイスプロファイルからのロードキャリブレーション
 "calibration.load_from_profile": |-
-  プロファイルから検量線をロードします。
+  プロファイルからキャリブレーションカーブをロードします。
 "calibration.load_success": |-
-  検量線が正常に読み込まれました。
+  キャリブレーションカーブが正常に読み込まれました。
 "calibration.loading": |-
-  ファイルから検量線を読み込んでいます...
+  ファイルからキャリブレーションカーブを読み込んでいます...
 "calibration.loading_from_display_profile": |-
-  現在のディスプレイデバイスプロファイルの検量線を読み込んでいます。
+  現在のディスプレイデバイスプロファイルのキャリブレーションカーブを読み込んでいます。
 "calibration.luminance": |-
   ホワイトレベル
 "calibration.lut_viewer.title": |-
@@ -432,17 +432,17 @@
 "calibration.preview": |-
   プレビューキャリブレーション
 "calibration.quality": |-
-  校正品質
+  キャリブレーションクオリティ
 "calibration.quality.high": |-
-  高い
+  High
 "calibration.quality.low": |-
-  低い
+  Low
 "calibration.quality.medium": |-
-  中くらい
+  Medium
 "calibration.quality.ultra": |-
-  ウルトラ
+  Ultra
 "calibration.quality.verylow": |-
-  とても低い
+  Very low
 "calibration.reset": |-
   ビデオカードのガンマテーブルをリセットする
 "calibration.reset_error": |-
@@ -454,29 +454,29 @@
 "calibration.settings": |-
   キャリブレーション設定
 "calibration.show_actual_lut": |-
-  ビデオカードからの検量線を表示
+  ビデオカードからのキャリブレーションカーブを表示
 "calibration.show_lut": |-
-  曲線を表示
+  カーブを表示
 "calibration.skip": |-
-  プロファイリングに進みます
+  プロファイリングに進む
 "calibration.speed": |-
-  校正速度
+  キャリブレーションスピード
 "calibration.speed.high": |-
-  高い
+  High
 "calibration.speed.low": |-
-  低い
+  Low
 "calibration.speed.medium": |-
-  中くらい
+  Medium
 "calibration.speed.veryhigh": |-
-  とても高い
+  Very high
 "calibration.speed.verylow": |-
-  とても低い
+  Very low
 "calibration.start": |-
-  キャリブレーションに進みます
+  キャリブレーションに進む
 "calibration.update": |-
-  キャリブレーションを更新します
+  キャリブレーションを更新
 "calibration.update_profile_choice": |-
-  既存のプロファイルの検量線も更新しますか、それとも単に校正しますか？
+  既存のプロファイルのキャリブレーションカーブも更新しますか、それとも単に校正しますか？
 "calibration.use_linear_instead": |-
   代わりに線形キャリブレーションを使用してください
 "calibration.verify": |-
@@ -484,17 +484,17 @@
 "calibration_profiling.complete": |-
   キャリブレーションとプロファイリングが完了しました！
 "calibrationloader.description": |-
-  構成されたすべてのディスプレイデバイスのICCプロファイルを設定し、検量線をロードします
+  構成されたすべてのディスプレイデバイスのICCプロファイルを設定し、キャリブレーションカーブをロードします
 "can_be_used_independently": |-
   単独で使用できます
 "cancel": |-
   キャンセル
 "cat02": |-
-  CAT02（CIECAM02から）
+  CAT02 (CIECAM02から) 
 "cat02bs": |-
-  CAT02（CIECAM02、Brill＆Süsstrunk修正から）
+  CAT02 (CIECAM02、Brill＆Süsstrunk修正から) 
 "cat97s": |-
-  CAT97s（CIECAM97sから）
+  CAT97s (CIECAM97sから) 
 "cathode_ray_tube_display": |-
   ブラウン管ディスプレイ
 "ccmx.use_four_color_matrix_method": |-
@@ -550,7 +550,7 @@
 "centered": |-
   中央揃え
 "channel_1_c_xy": |-
-  チャネル1（C）xy
+  チャネル1 (C) xy
 "channel_1_gamma_at_50_input": |-
   50%入力でのチャネル1ガンマ
 "channel_1_is_linear": |-
@@ -560,17 +560,17 @@
 "channel_1_minimum": |-
   チャンネル1以上
 "channel_1_r_xy": |-
-  チャネル1（R）xy
+  チャネル1 (R) xy
 "channel_1_unique_values": |-
   チャネル1の一意の値
 "channel_2_g_xy": |-
-  チャネル2（G）xy
+  チャネル2 (G) xy
 "channel_2_gamma_at_50_input": |-
   50%入力でのチャネル2ガンマ
 "channel_2_is_linear": |-
   チャネル2は線形です
 "channel_2_m_xy": |-
-  チャネル2（M）xy
+  チャネル2 (M) xy
 "channel_2_maximum": |-
   最大チャンネル2
 "channel_2_minimum": |-
@@ -578,7 +578,7 @@
 "channel_2_unique_values": |-
   チャネル2の一意の値
 "channel_3_b_xy": |-
-  チャネル3（B）xy
+  チャネル3 (B) xy
 "channel_3_gamma_at_50_input": |-
   50%入力でのチャネル3ガンマ
 "channel_3_is_linear": |-
@@ -590,9 +590,9 @@
 "channel_3_unique_values": |-
   チャネル3の一意の値
 "channel_3_y_xy": |-
-  チャネル3（Y）xy
+  チャネル3 (Y) xy
 "channel_4_k_xy": |-
-  チャネル4（K）xy
+  チャネル4 (K) xy
 "channels": |-
   チャンネル
 "characterization_device_values": |-
@@ -608,17 +608,17 @@
 "checksum_ok": |-
   チェックサムOK
 "chronom_adaptation": |-
-  色順応..。
+  色順応...
 "chronom_adaptation_matrix": |-
   色順応マトリックス
 "chronom_adaptation_transform": |-
   色順応変換
 "色度_光源_相対": |-
-  色度（光源相対）
+  色度 (光源相対) 
 "chromecast_limitations_warning": |-
   Chromecast は RGB から YCbCr への変換とアップスケーリングを使用しているため、Chromecast の精度は直接接続されたディスプレイや madTPG ほど良くないことに注意してください。
 "cie2012_2": |-
-  CIE20122°
+  CIE2012 2°
 "clear": |-
   クリア
 "close": |-
@@ -638,24 +638,24 @@
 "colorant_order": |-
   着色剤の注文
 "colorants_pcs_relative": |-
-  着色剤（PCS相対）
+  着色剤 (PCS相対) 
 "colorimeter_correction.create": |-
-  比色計補正を作成します。
+  比色計補正 (CCSS/CCMX) を作成します。
 "colorimeter_correction.create.details": |-
-  以下のフィールドを確認し、必要に応じて変更してください。説明には、重要な詳細（たとえば、特定の表示設定、デフォルト以外の CIE オブザーバーなど）も含める必要があります。
+  以下のフィールドを確認し、必要に応じて変更してください。説明には、重要な詳細 (たとえば、特定の表示設定、デフォルト以外の CIE オブザーバーなど) も含める必要があります。
 "colorimeter_correction.create.failure": |-
   修正の作成に失敗しました。
 "colorimeter_correction.create.info": |-
-  比色計補正を作成するには、最初に分光計で必要なテスト色を測定する必要があります。スペクトル補正の代わりに補正マトリックスを作成する場合は、比色計でも使用します。
+  比色計補正を作成するには、最初に分光計で必要なテスト色を測定する必要があります。スペクトル補正の代わりに補正マトリックスを作成する場合は比色計も使用します。
   または、「参照...」を選択して既存の測定値を使用することもできます。
 "colorimeter_correction.create.success": |-
   修正が正常に作成されました。
 "colorimeter_correction.create.warning": |-
-  測色計の補正を作成するときは、ディスプレイデバイスを本来の色域で測定し、（エミュレーションモードまたは同様の手段で）人為的に制限しないようにしてください。
+  比色計補正を作成するときは、ディスプレイデバイスを本来の色域で測定し、 (エミュレーションモードまたは同様の手段で) 人為的に制限しないようにしてください。
 "colorimeter_correction.file.none": |-
   なし
 "colorimeter_correction.import": |-
-  他のディスプレイプロファイリングソフトウェアから測色計の補正をインポートします。
+  他のディスプレイプロファイリングソフトウェアから比色計の補正をインポートします。
 "colorimeter_correction.import.choose": |-
   インポートする比色計補正ファイルを選択してください。
 "colorimeter_correction.import.failure": |-
@@ -669,11 +669,11 @@
 "colorimeter_correction.info": |-
   比色計補正情報
 "colorimeter_correction.instrument_mismatch": |-
-  選択した比色計補正は、選択した機器に適していません。
+  選択した比色計補正は、選択した計測器に適していません。
 "colorimeter_correction.upload": |-
-  比色計補正をアップロード...
+  比色計補正 (CCSS/CCMX) をアップロード...
 "colorimeter_correction.upload.confirm": |-
-  比色計の補正をオンラインデータベースにアップロードしますか（推奨）？アップロードされたファイルはすべてパブリックドメインに置かれていると見なされるため、自由に使用できます。
+  比色計補正をオンラインデータベースにアップロードしますか (推奨) ？アップロードされたファイルはすべてパブリックドメインに置かれていると見なされるため、自由に使用できます。
 "colorimeter_correction.upload.deny": |-
   この比色計補正はアップロードされない場合があります。
 "colorimeter_correction.upload.exists": |-
@@ -683,21 +683,21 @@
 "colorimeter_correction.upload.success": |-
   修正はオンラインデータベースに正常にアップロードされました。
 "colorimeter_correction.web_check": |-
-  比色計の補正についてはオンラインで確認してください...
+  比色計補正をオンラインで確認する...
 "colorimeter_correction.web_check.choose": |-
-  選択したディスプレイと機器について、次の比色計の修正が見つかりました。
+  選択したディスプレイと計測器について、次の比色計の修正が見つかりました。
 "colorimeter_correction.web_check.failure": |-
-  選択したディスプレイと機器の比色計の修正は見つかりませんでした。
+  選択したディスプレイと計測器の比色計の修正は見つかりませんでした。
 "colorimeter_correction.web_check.info": |-
-  すべての比色計の補正はさまざまなユーザーによって提供されており、特定の状況に対するそれらの有用性は評価する必要があることに注意してください。 それらは、ディスプレイでの比色計の絶対精度を向上させる場合と向上させない場合があります。
+  すべての比色計補正はさまざまなユーザーによって提供されており、特定の状況に対するそれらの有用性は評価する必要があることに注意してください。 それらは、ディスプレイでの比色計の絶対精度を向上させる場合と向上させない場合があります。
 "colorimeter_correction_matrix_file": |-
-  修正
+  比色計補正
 "colorimeter_correction_matrix_file.choose": |-
   比色計補正を選択してください...
 "colorimetric_intent_image_state": |-
   測色画像の状態
 "colors_pcs_relative": |-
-  色（PCS相対）
+  色 (PCS相対) 
 "colorspace": |-
   色空間
 "colorspace.show_outline": |-
@@ -709,7 +709,7 @@
 "comparison_profile": |-
   比較プロファイル
 "comport_detected": |-
-  機器/ポート構成の変更が検出されました。
+  計測器/ポート構成の変更が検出されました。
 "compression.gzip": |-
   GZIP圧縮
 "computer.name": |-
@@ -723,7 +723,7 @@
 "connection.established": |-
   接続が確立されました
 "connection.fail": |-
-  接続エラー（%s）
+  接続エラー (%s) 
 "connection.fail.http": |-
   HTTPエラー%s
 "connection.waiting": |-
@@ -741,17 +741,17 @@
 "corrected": |-
   修正
 "create_profile": |-
-  測定データからプロファイルを作成します。
+  測定データからプロファイルを作成
 "create_profile_from_edid": |-
-  拡張ディスプレイ識別データからプロファイルを作成します。
+  EDID からプロファイルを作成
 "created": |-
-  作成した
+  Created
 "creator": |-
-  クリエイター
+  Creator
 "current": |-
-  カレント
+  Current
 "custom": |-
-  カスタム
+  Custom
 "cyan": |-
   シアン
 "d3-e4-s2-g28-m0-b0-f0.ti1": |-
@@ -771,7 +771,7 @@
 "default": |-
   ディフォルト
 "default.icc": |-
-  デフォルト（ガンマ2.2）
+  デフォルト (ガンマ2.2) 
 "default_crt": |-
   デフォルトのCRT
 "default_rendering_intent": |-
@@ -783,19 +783,19 @@
 "delta_e_2000_to_daylight_locus": |-
   ΔE2000から日光軌跡
 "delta_e_to_locus": |-
-  ΔE* 00から%s遺伝子座
+  ΔE* 00から%s 軌跡
 "description": |-
   説明
 "description_ascii": |-
-  説明（ASCII）
+  説明 (ASCII) 
 "description_macintosh": |-
-  説明（Macintosh）
+  説明 (Macintosh) 
 "description_unicode": |-
-  説明（Unicode）
+  説明 (Unicode) 
 "deselect_all": |-
   すべての選択を解除
 "detect_displays_and_ports": |-
-  ディスプレイデバイスと機器を検出する
+  ディスプレイデバイスと計測器を検出する
 "device": |-
   デバイス
 "device.name.placeholder": |-
@@ -807,19 +807,19 @@
 "device_manufacturer_name": |-
   デバイスメーカー名
 "device_manufacturer_name_ascii": |-
-  デバイスメーカー名（ASCII）
+  デバイスメーカー名 (ASCII) 
 "device_manufacturer_name_macintosh": |-
-  デバイスメーカー名（Macintosh）
+  デバイスメーカー名 (Macintosh) 
 "device_manufacturer_name_unicode": |-
-  デバイスメーカー名（Unicode）
+  デバイスメーカー名 (Unicode) 
 "device_model_name": |-
   デバイスモデル名
 "device_model_name_ascii": |-
-  デバイスモデル名（ASCII）
+  デバイスモデル名 (ASCII) 
 "device_model_name_macintosh": |-
-  デバイスモデル名（Macintosh）
+  デバイスモデル名 (Macintosh) 
 "device_model_name_unicode": |-
-  デバイスモデル名（Unicode）
+  デバイスモデル名 (Unicode) 
 "device_to_pcs_intent_0": |-
   デバイスからPCSへ：インテント0
 "device_to_pcs_intent_1": |-
@@ -841,7 +841,7 @@
 "dialog.confirm_uninstall": |-
   選択したファイルを本当にアンインストールしますか？
 "dialog.current_cal_warning": |-
-  現在の検量線が使用されます。続けますか？
+  現在のキャリブレーションカーブが使用されます。続けますか？
 "dialog.do_not_show_again": |-
   このメッセージを再び表示しない
 "dialog.enter_password": |-
@@ -849,19 +849,19 @@
 "dialog.install_profile": |-
   プロファイル「%s」をインストールして、表示「%s」のデフォルトにしますか？
 "dialog.linear_cal_info": |-
-  線形検量線が使用されます。続けますか？
+  線形キャリブレーションカーブが使用されます。続けますか？
 "dialog.load_cal": |-
   ロードセッティング
 "dialog.select_argyll_version": |-
-  ArgyllCMSのバージョン%sが見つかりました。現在選択されているバージョンは%sです。新しいバージョンを使用しますか？
+  ArgyllCMS のバージョン%sが見つかりました。現在選択されているバージョンは%sです。新しいバージョンを使用しますか？
 "dialog.set_argyll_bin": |-
-  ArgyllCMS実行可能ファイルが存在するディレクトリを見つけてください。
+  ArgyllCMS 実行可能ファイルが存在するディレクトリを見つけてください。
 "dialog.set_profile_save_path": |-
   ここにプロファイルディレクトリ「%s」を作成します。
 "dialog.set_testchart": |-
   テストチャートファイルを選択
 "dialog.ti3_no_cal_info": |-
-  測定データには検量線は含まれていません。本当に続けたいですか？
+  測定データにはキャリブレーションカーブは含まれていません。本当に続けたいですか？
 "digital_camera": |-
   デジタルカメラ
 "digital_cinema_projector": |-
@@ -883,13 +883,13 @@
 "display": |-
   画面
 "display-instrument": |-
-  ディスプレイと計器
+  ディスプレイと計測器
 "display.connection.type": |-
-  繋がり
+  接続
 "display.levels_issue_detected": |-
   RGB レベル 0 と 16 の間で測定された輝度差は、0.02 cd /m²未満であり、クリッピングを示しています。 ディスプレイデバイスの入力および/または黒レベルの設定が正しくないか、グラフィックスドライバーの出力レベルの構成が間違っている可能性があります。
   
-  ディスプレイデバイスに入力レベルの設定がある場合は、フルレンジ RGB （0〜255） に設定してください。 ディスプレイデバイスにそのような設定がない場合は、代わりにグラフィックスドライバーを制限された範囲 （16〜235） を出力するように設定してください。 いずれかの変更を行った後、「再試行」を選択してください。
+  ディスプレイデバイスに入力レベルの設定がある場合は、フルレンジ RGB  (0〜255)  に設定してください。 ディスプレイデバイスにそのような設定がない場合は、代わりにグラフィックスドライバーを制限された範囲  (16〜235)  を出力するように設定してください。 いずれかの変更を行った後、「再試行」を選択してください。
   
   ディスプレイにもグラフィックドライバにも範囲設定がない場合は、[続行]をクリックしてビデオカードのガンマテーブルを使用して出力レベルを修正することもできますが、これは最も望ましくない解決策であることに注意してください。
 "display.manufacturer": |-
@@ -995,7 +995,7 @@
 "display_profile.not_detected": |-
   表示「%s」の現在のプロファイルが検出されません
 "display_short": |-
-  ディスプレイデバイス（省略形）
+  ディスプレイデバイス (省略形) 
 "displayport": |-
   DisplayPort
 "displays.identify": |-
@@ -1016,7 +1016,7 @@
 "download.fail.empty_response": |-
   ダウンロードに失敗しました：%sが空のドキュメントを返しました。
 "download.fail.wrong_size": |-
-  ダウンロードに失敗しました：ファイルの予想サイズが%sバイトではありません（%sバイトを受信しました）。
+  ダウンロードに失敗しました：ファイルの予想サイズが%sバイトではありません (%sバイトを受信しました) 。
 "download_install": |-
   ダウンロードしてインストール
 "downloading": |-
@@ -1062,7 +1062,7 @@
 "entries": |-
   エントリー
 "enumerate_ports.auto": |-
-  機器を自動的に検出
+  計測器を自動的に検出
 "enumerating_displays_and_comports": |-
   ディスプレイデバイスと通信ポートの列挙...
 "environment": |-
@@ -1074,13 +1074,13 @@
 "error.already_exists": |-
   同じ名前の別のオブジェクトがすでに存在するため、名前「%s」は使用できません。別の名前または別のディレクトリを選択してください。
 "error.autostart_creation": |-
-  ログイン時に検量線をロードするための%sの自動開始エントリの作成に失敗しました。
+  ログイン時にキャリブレーションカーブをロードするための%sの自動開始エントリの作成に失敗しました。
 "error.autostart_remove_old": |-
-  ログイン時に検量線をロードする古い自動開始エントリを削除できませんでした：%s
+  ログイン時にキャリブレーションカーブをロードする古い自動開始エントリを削除できませんでした：%s
 "error.autostart_system": |-
-  システム全体の自動開始ディレクトリを特定できなかったため、ログイン時に検量線をロードするためのシステム全体の自動開始エントリを作成できませんでした。
+  システム全体の自動開始ディレクトリを特定できなかったため、ログイン時にキャリブレーションカーブをロードするためのシステム全体の自動開始エントリを作成できませんでした。
 "error.autostart_user": |-
-  ユーザー固有の自動開始ディレクトリを決定できなかったため、ログイン時に検量線をロードするためのユーザー固有の自動開始エントリを作成できませんでした。
+  ユーザー固有の自動開始ディレクトリを決定できなかったため、ログイン時にキャリブレーションカーブをロードするためのユーザー固有の自動開始エントリを作成できませんでした。
 "error.cal_extraction": |-
   「%s」からキャリブレーションを抽出できませんでした。
 "error.calibration.file_missing": |-
@@ -1107,9 +1107,9 @@
   エラーコード：%s
   エラーメッセージ：%s
 "error.luminance.invalid": |-
-  測定されたピーク輝度が無効でした。計器センサーが遮られていないことを確認し、保護キャップ（存在する場合）を取り外します。
+  測定されたピーク輝度が無効でした。計器センサーが遮られていないことを確認し、保護キャップ (存在する場合) を取り外します。
 "error.luminance.not_monotonically_increasing": |-
-  測定された輝度応答は非常に非単調です（デバイスまたは機器の障害）。トーンレスポンスカーブを生成できません。
+  測定された輝度応答は非常に非単調です (デバイスまたは計測器の障害) 。トーンレスポンスカーブを生成できません。
 "error.malformed_cgats": |-
   %sファイル「%s」の形式が正しくありません。
 "error.measurement.file_invalid": |-
@@ -1135,7 +1135,7 @@
 "error.source_dest_same": |-
   ソースプロファイルと宛先プロファイルは同じです。
 "error.spyderx.black_cal_offsets_too_high": |-
-  機器のセルフキャリブレーションオフセットが高すぎます。機器のセルフキャリブレーション中にセンサーに光が当たらないことを確認してください（キャップ​​をしっかりと取り付けてください）。
+  計測器のセルフキャリブレーションオフセットが高すぎます。計測器のセルフキャリブレーション中にセンサーに光が当たらないことを確認してください (キャップ​​をしっかりと取り付けてください) 。
 "error.testchart.creation_failed": |-
   テストチャートファイル「%s」を作成できませんでした。アクセス制限があるか、ソースファイルが存在しない可能性があります。
 "error.testchart.invalid": |-
@@ -1194,41 +1194,41 @@
 "filetype.any": |-
   任意のファイルタイプ
 "filetype.cal": |-
-  キャリブレーションファイル（*.cal）
+  キャリブレーションファイル (*.cal) 
 "filetype.cal_icc": |-
-  キャリブレーションおよびプロファイルファイル（*.cal; *.icc; *.icm）
+  キャリブレーションおよびプロファイルファイル (*.cal; *.icc; *.icm) 
 "filetype.ccmx": |-
-  補正マトリックス/キャリブレーションスペクトルサンプル（*.ccmx; *.ccss）
+  補正マトリックス/キャリブレーションスペクトルサンプル (*.ccmx; *.ccss) 
 "filetype.html": |-
-  HTMLファイル（*.html; *.htm）
+  HTMLファイル (*.html; *.htm) 
 "filetype.icc": |-
-  プロファイルファイル（*.icc; *.icm）
+  プロファイルファイル (*.icc; *.icm) 
 "filetype.icc_mpp": |-
-  プロファイルファイル（*.icc; *.icm; *.mpp）
+  プロファイルファイル (*.icc; *.icm; *.mpp) 
 "filetype.icc_ti1_ti3": |-
-  テストチャートファイル（*.icc; *.icm; *.ti1; *.ti3）
+  テストチャートファイル (*.icc; *.icm; *.ti1; *.ti3) 
 "filetype.icc_ti3": |-
-  測定ファイル（*.icc; *.icm; *.ti3）
+  測定ファイル (*.icc; *.icm; *.ti3) 
 "filetype.log": |-
-  ログファイル（*.log）
+  ログファイル (*.log) 
 "filetype.png": |-
-  ポータブルネットワークグラフィックス（*.png）
+  ポータブルネットワークグラフィックス (*.png) 
 "filetype.tgz": |-
   圧縮されたTARアーカイブ
 "filetype.ti1": |-
-  テストチャートファイル（*.ti1）
+  テストチャートファイル (*.ti1) 
 "filetype.ti1_ti3_txt": |-
-  テストチャートファイル（*.ti1）、測定ファイル（*.ti3; *.txt）
+  テストチャートファイル (*.ti1) 、測定ファイル (*.ti3; *.txt) 
 "filetype.ti3": |-
-  測定ファイル（*.ti3）
+  測定ファイル (*.ti3) 
 "filetype.tif": |-
-  タグ付き画像ファイル（*.tif）
+  タグ付き画像ファイル (*.tif) 
 "filetype.txt": |-
   DeviceCorrections.txt
 "filetype.vrml": |-
-  VRMLファイル（*.wrl）
+  VRMLファイル (*.wrl) 
 "filetype.x3d": |-
-  X3Dファイル（*.x3d）
+  X3Dファイル (*.x3d) 
 "filetype.zip": |-
   ZIPファイル
 "film_scanner": |-
@@ -1251,7 +1251,7 @@
   ご希望のフォーマットをお選びください。
 "fullscreen.message": |-
   フルスクリーンモードがアクティブになりました。
-  ESCを押して全画面表示を終了します。
+  ESC を押して全画面表示を終了します。
 "fullscreen.osx.warning": |-
   ウィンドウタイトルバーのズームボタンを使用してフルスクリーンモードに入る場合は、ウィンドウを閉じた後、CMD + Tabキーを押して通常モードに戻ってください。 または、タイトルバーをダブルクリックするか、OPTION キーを押しながらズームボタンをクリックして、全画面表示にすることもできます。
 "gamap.default_intent": |-
@@ -1281,7 +1281,7 @@
 "gamap.perceptual": |-
   Gamut mapping for perceptual intent (知覚意図のための色域マッピング)
 "gamap.profile": |-
-  Source profile(ソースプロファイル)
+  Source profile (ソースプロファイル)
 "gamap.saturation": |-
   Gamut mapping for saturation intent (飽和意図の色域マッピング)
 "gamap.src_viewcond": |-
@@ -1301,13 +1301,13 @@
 "gamap.viewconds.ob": |-
   オリジナルシーン-明るいアウトドア
 "gamap.viewconds.pc": |-
-  重要な印刷評価環境（ISO-3664 P1）
+  重要な印刷評価環境 (ISO-3664 P1) 
 "gamap.viewconds.pcd": |-
   フォトCD-屋外のオリジナルシーン
 "gamap.viewconds.pe": |-
-  印刷評価環境（CIE 116-1995）
+  印刷評価環境 (CIE 116-1995) 
 "gamap.viewconds.pp": |-
-  実用的な反射プリント（ISO-3664 P2）
+  実用的な反射プリント (ISO-3664 P2) 
 "gamap.viewconds.tv": |-
   テレビ/映画スタジオ
 "gamapframe.title": |-
@@ -1347,17 +1347,17 @@
 "grayscale": |-
   グレースケール
 "green": |-
-  緑
+  Green
 "green_gamma": |-
-  グリーンガンマ
+  Green gammma
 "green_lab": |-
   Green L*a*b*
 "green_matrix_column": |-
-  Green Matrix Column
+  Green matrix column
 "green_maximum": |-
-  緑の最大値
+  Green maxmum
 "green_minimum": |-
-  グリーンミニマム
+  Green minimum
 "green_tone_response_curve": |-
   グリーントーンレスポンスカーブ
 "green_xyz": |-
@@ -1371,21 +1371,21 @@
 "hdr_mincll": |-
   最小コンテンツライトレベル
 "header": |-
-  ArgyllCMSを搭載したディスプレイのキャリブレーションと特性評価
+  ArgyllCMS を搭載したディスプレイのキャリブレーションと特性評価
 "help_support": |-
   ヘルプとサポート...
 "host.invalid.lookup_failed": |-
-  無効なホスト（アドレス検索に失敗しました）
+  無効なホスト (アドレス検索に失敗しました) 
 "hpe_d65": |-
-  Hunt-Pointer-Estevez（HPE）、イルミナントD65
+  Hunt-Pointer-Estevez (HPE) 、イルミナントD65
 "hpe_e": |-
-  ハント-ポインター-エステベス（HPE）、光源E
+  Hunt-Pointer-Estevez (HPE) 、光源E
 "hue": |-
   色相
 "icc_absolute_colorimetric": |-
   ICC-絶対比色
 "icc_version": |-
-  ICCバージョン
+  ICC バージョン
 "if_available": |-
   可能な場合は
 "illuminant": |-
@@ -1403,39 +1403,39 @@
 "in": |-
   In
 "info.3dlut_settings": |-
-  <font weight='bold'>3D LUT</font>（LUT =ルックアップテーブル）または ICC デバイスリンクプロファイルは、フル<font weight='bold'>ディスプレイカラー補正</font>のための 3D LUT または ICC デバイスリンク対応アプリケーションで使用できます。
+  <font weight='bold'>3D LUT</font> (LUT =ルックアップテーブル) または ICC デバイスリンクプロファイルは、フル<font weight='bold'>ディスプレイカラー補正</font>のための 3D LUT または ICC デバイスリンク対応アプリケーションで使用できます。
   
-  <font weight='bold'>既存のプロファイルからいくつかの（追加の）3D LUT を作成する</font>
+  <font weight='bold'>既存のプロファイルからいくつかの (追加の) 3D LUT を作成する</font>
   [設定]で目的のプロファイルを選択した状態で、[プロファイリング後に 3D LUT を作成する]チェックボックスをオフにします。
   
-  <font weight='bold'>適切なソースの色空間とトーン応答曲線の選択</font>
-  3D LUT および ICC デバイスリンクプロファイルの場合、ソースの色空間とトーン応答曲線を事前に設定し、全体的な色変換の固定部分にする必要があります（オンザフライで動的にリンクされる ICC デバイスプロファイルとは異なります）。 例として、HD ビデオ素材は通常、Rec.709 規格に従ってマスタリングされており、純粋なパワーガンマが約 2.2 〜 2.4 （黒の出力オフセットが 100% の場合）または Rec.1886 のトーン応答曲線のいずれかです（黒の出力オフセット 0% で絶対）。 黒の出力オフセットを 0% から 100% の値に設定することで、Rec.1886 のようなパワーと純粋なパワーを分割することもできます。
+  <font weight='bold'>適切なソースの色空間とトーンレスポンスカーブの選択</font>
+  3D LUT および ICC デバイスリンクプロファイルの場合、ソースの色空間とトーンレスポンスカーブを事前に設定し、全体的な色変換の固定部分にする必要があります。  (オンザフライで動的にリンクされる ICC デバイスプロファイルとは異なります)  例として、HD ビデオ素材は通常、Rec.709 規格に従ってマスタリングされており、純粋なパワーガンマが約 2.2 〜 2.4  (黒の出力オフセットが 100% の場合)  または Rec.1886 のトーンレスポンスカーブのいずれかです。  (黒の出力オフセット 0% で絶対)  黒の出力オフセットを 0% から 100% の値に設定することで、Rec.1886 のようなパワーと純粋なパワーを分割することもできます。
   
-  <font weight='bold'>「絶対」vs.「相対」ガンマ</font>
-  実際のディスプレイのゼロ以外の黒レベルに対応するには、トーン応答曲線をオフセットし、それに応じてスケーリングする必要があります。
-  「絶対」ガンマは、50%入力での実際の出力になります。これは、理想的な電力曲線の出力と一致しません（黒レベルがゼロでない場合）。
-  「相対」ガンマは、理想的な電力曲線の出力と一致する50%の入力での実際の出力になります。
+  <font weight='bold'>「絶対 (Absolute)」vs.「相対 (relative)」ガンマ</font>
+  実際のディスプレイのゼロ以外の黒レベルに対応するには、トーンレスポンスカーブをオフセットし、それに応じてスケーリングする必要があります。
+  「絶対 (Absolute)」ガンマは、50%入力での実際の出力になります。これは、理想的な電力カーブの出力と一致しません。  (黒レベルがゼロでない場合) 
+  「相対 (relative)」ガンマは、理想的な電力カーブの出力と一致する50%の入力での実際の出力になります。
   
   <font weight='bold'>レンダリングインテント</font>
-  ソース色空間で義務付けられているものとは異なるホワイトポイントにキャリブレーションし、代わりにそれを 3D LUT に使用する場合は、「相対測色」を選択します。 それ以外の場合は、「白色点スケーリングを使用した絶対測色」を選択します （白色点スケーリングは、ソース色空間の白色点が表示範囲外にある場合に発生する可能性がある絶対測色モードでのクリッピングを防ぎます）。 表示範囲内に収まるようにソース色空間を圧縮または拡張できる非測色レンダリングインテントを使用するオプションもあります （測色精度が必要な場合はお勧めしません）。
+  ソース色空間で義務付けられているものとは異なるホワイトポイントにキャリブレーションし、代わりにそれを 3D LUT に使用する場合は、「相対測色」を選択します。 それ以外の場合は、「白色点スケーリングを使用した絶対測色」を選択します。 (白色点スケーリングは、ソース色空間の白色点が表示範囲外にある場合に発生する可能性がある絶対測色モードでのクリッピングを防ぎます)  表示範囲内に収まるようにソース色空間を圧縮または拡張できる非測色レンダリングインテントを使用するオプションもあります。 (測色精度が必要な場合はお勧めしません) 
 "info.calibration_settings": |-
-  <font weight='bold'>キャリブレーション</font>は、選択したホワイトポイントや輝度に合わせて<font weight='bold'>ディスプレイをインタラクティブに調整</font>し、オプションで <font weight='bold'>1D LUT キャリブレーションカーブ</font>（LUT=ルックアップテーブル）を作成して、選択したトーン応答カーブに合わせ、グレーバランスを確保することで実行されます。 キャリブレーション中に表示を調整し、1D LUT 曲線の生成をスキップしたい場合は、トーン応答曲線を「測定時」に設定する必要があることに注意してください。 1D LUT キャリブレーションは、フルディスプレイカラー補正には<font weight='bold'>使用できません。 </font> <font weight='bold'>ICC デバイスプロファイル</font>または <font weight='bold'>3D LUT</font> を作成し、それらをその目的でサポートするアプリケーションで使用する必要があります。 ただし、1D LUT キャリブレーションは、プロファイリングと 3D LUT キャリブレーションを補完します。
+  <font weight='bold'>キャリブレーション</font>は、選択したホワイトポイントや輝度に合わせて<font weight='bold'>ディスプレイをインタラクティブに調整</font>し、オプションで <font weight='bold'>1D LUTキャリブレーションカーブ</font>  (LUT=ルックアップテーブル) を作成して、選択したトーンレスポンスカーブに合わせ、グレーバランスを確保することで実行されます。 キャリブレーション中に表示を調整し、1D LUT キャリブレーションカーブの生成をスキップしたい場合は、トーンカーブを「測定値」に設定する必要があることに注意してください。 1D LUT キャリブレーションは、フルディスプレイカラー補正には<font weight='bold'>使用できません。</font><font weight='bold'>ICC デバイスプロファイル </font>または <font weight='bold'>3D LUT</font> を作成し、それらをその目的でサポートするアプリケーションで使用する必要があります。 ただし、1D LUT キャリブレーションは、プロファイリングと 3D LUT キャリブレーションを補完します。
 "info.display_instrument": |-
-  該当する場合は、ディスプレイのすべての <font weight='bold'>動的画像設定を無効</font> にします。 これには、ダイナミックコントラスト、調光、自動明るさなどの機能が含まれます。
+  該当する場合は、ディスプレイのすべての <font weight='bold'>動的画像設定を無効</font> にします。 これには、ダイナミックコントラスト、自動調光などの機能が含まれます。
   
   ディスプレイの画面に直接光が当たらないようにしてください。
   
   ディスプレイが <font weight='bold'>OLED</font> または <font weight='bold'>Plasma TV</font>、または画像の内容に応じて光出力が変化するその他のタイプの場合は、<font weight='bold'>ホワイトレベルドリフト補正を有効にします</font>。
   
-  機器が<font weight='bold'>分光計</font>であり、安定した黒レベルのディスプレイで接触モードで使用する場合は、<font weight='bold'>機器の黒レベルドリフト補正</font>を有効にすることをお勧めします。
-  
-  機器が<font weight='bold'>比色計</font>の場合は、ディスプレイやディスプレイ技術の種類に適した<font weight='bold'>測定モード</font>または<font weight='bold'>補正</font>を使用する必要があります。 一部の機器（K-10、Spyder4/5/X など）は、特定のディスプレイタイプ用にすでに調整された測定モードの選択を提供する場合があることに注意してください。
+  計測器が<font weight='bold'>分光計</font>であり、安定した黒レベルのディスプレイで接触モードで使用する場合は、<font weight='bold'>計測器のブラックレベルドリフト補正</font>を有効にすることをお勧めします。
+  計測器が<font weight='bold'>比色計</font>の場合は、ディスプレイやディスプレイ技術の種類に適した<font weight='bold'>測定モード</font>または<font weight='bold'>補正</font>を使用する必要があります。
+  一部の計測器 (K-10、Spyder4/5/X など) は、特定のディスプレイタイプ用にすでに調整された測定モードの選択を提供する場合があることに注意してください。
 "info.display_instrument.warmup": |-
-  測定を開始する前に、ディスプレイを少なくとも<font weight='bold'>30 分ウォームアップ</font>する必要があります。 機器を接触モードで使用する場合は、その間もディスプレイに置いたままにしておくことをお勧めします。
+  測定を開始する前に、ディスプレイを少なくとも <font weight='bold'> 30 分ウォームアップ </font> する必要があります。 計測器を接触モードで使用する場合は、その間もディスプレイに置いたままにしておくことをお勧めします。
 "info.display_tech": |-
-  <font weight='bold'>LCD白色LED</font>（通常の色域と最大 100% の sRGB カバレッジを備えた WLED）は、最も一般的な LCD バックライトテクノロジーです。 このカテゴリのディスプレイには、2010 年以降のほとんどのラップトップ、ノートブック、オールラウンド/オフィスおよび非 HDR ゲーミングモニター、および 2009 年から 2015 年半ばまでの Apple iMac/MacBook が含まれます。
+  <font weight='bold'>LCD白色LED</font> (通常の色域と最大 100% の sRGB カバレッジを備えた WLED) は、最も一般的な LCD バックライトテクノロジーです。 このカテゴリのディスプレイには、2010 年以降のほとんどのラップトップ、ノートブック、オールラウンド/オフィスおよび非 HDR ゲーミングモニター、および 2009 年から 2015 年半ばまでの Apple iMac/MacBook が含まれます。
   
-  <font weight='bold'>LCD PFS Phosphor WLED</font> は、2つの一般的なバリエーションで広い色域を持ち、P3 または Adobe RGB のカバレッジは約 90〜99% です（メーカーのデータによる）。 P3 色域カテゴリの一般的なディスプレイには、Apple iMac 4K/5K Retina（2015年後半以降）、MacBook Pro Retina（2016年後半以降）、および一部の HDR 対応デスクトップモニターが含まれます。 Adobe RGB 色域カテゴリには、EIZO CG2730、HP DreamColor Z24x G2、NECPA271Q などのプロフェッショナルディスプレイが含まれます。
+  <font weight='bold'>LCD PFS Phosphor WLED</font> は、2つの一般的なバリエーションで広い色域を持ち、P3 または Adobe RGB のカバレッジは約 90〜99% です (メーカーのデータによる) 。 P3 色域カテゴリの一般的なディスプレイには、Apple iMac 4K/5K Retina (2015年後半以降) 、MacBook Pro Retina (2016年後半以降) 、および一部の HDR 対応デスクトップモニターが含まれます。 Adobe RGB 色域カテゴリには、EIZO CG2730、HP DreamColor Z24x G2、NECPA271Q などのプロフェッショナルディスプレイが含まれます。
   
   <font weight='bold'>LCD Quantum Dot LED</font> は、Samsung QLED TV で一般的に使用されている、ほぼ完全な P3 カバレッジを備えた広い色域を備えています。
   
@@ -1443,7 +1443,7 @@
   
   <font weight='bold'>RGB OLED/AMOLED</font> は、Adobe RGB および/または P3 をほぼ完全にカバーする広い色域を持ち、一部のプロのモニターやラップトップ、および高品質のスマートフォンで使用されます。
   
-  <font weight='bold'>LCD GB-r-LED</font>（GB-LEDとも呼ばれます）は、Adobe RGB カバレッジが約99%（メーカーデータによる）の広い色域を持っています。このカテゴリの一般的なディスプレイには、Dell U2413、EIZO CG247/CG277、NEC PA242W/PA272Wが含まれます。
+  <font weight='bold'>LCD GB-r-LED</font> (GB-LEDとも呼ばれます) は、Adobe RGB カバレッジが約 99 % (メーカーデータによる) の広い色域を持っています。このカテゴリの一般的なディスプレイには、Dell U2413、EIZO CG247/CG277、NEC PA242W/PA272Wが含まれます。
   
   <font weight='bold'>LCD RGB LED</font> は、ほぼ完全な AdobeRGB カバレッジを備えた広い色域を備えています。このカテゴリの一般的なディスプレイには、Samsung XL20/XL24/XL30 および HP DreamColor LP2480zx が含まれます。
   
@@ -1461,9 +1461,9 @@
   
   <font weight='bold'>ヒント：</font>測定レポートの代わりにセルフチェックレポートを作成するには、キーボードの Alt キーを押したままにします。
 "info.profile_settings": |-
-  <font weight='bold'>プロファイリング</font>は、ディスプレイの<font weight='bold'>特性</font>を明らかにし、その応答を<font weight='bold'>ICC デバイスプロファイル</font>に記録するプロセスです。 ICC デバイスプロファイルは、フル<font weight='bold'>ディスプレイカラー補正</font>のための ICC カラーマネジメントをサポートするアプリケーションで使用できます。 また、<font weight='bold'>3D LUT</font>（LUT=ルックアップテーブル）を作成するために使用できます。 これは、3D LUT をサポートするアプリケーションで同じ目的を果たします。
+  <font weight='bold'>プロファイリング</font>は、ディスプレイの<font weight='bold'>特性</font>を明らかにし、その応答を<font weight='bold'>ICC デバイスプロファイル</font>に記録するプロセスです。 ICC デバイスプロファイルは、フル<font weight='bold'>ディスプレイカラー補正</font>のための ICC カラーマネジメントをサポートするアプリケーションで使用できます。 また、<font weight='bold'> 3D LUT </font> (LUT=ルックアップテーブル) を作成するために使用できます。 これは、 3D LUT をサポートするアプリケーションで同じ目的を果たします。
   
-  測定されたパッチの量は、結果のプロファイルの達成可能な精度に影響します。 妥当な品質の 3x3 マトリックスおよび曲線ベースのプロファイルの場合、ディスプレイに優れた加法混色特性と直線性があれば、数十のパッチで十分です。 一部のプロ用ディスプレイはそのカテゴリに分類されます。 可能な限り最高の精度が必要な場合は、数百から数千のパッチのLUTベースのプロファイルをお勧めします。 <font weight='bold'>“ Auto-optimized”</font> テストチャート設定は、ディスプレイの非線形性と実際の応答を自動的に考慮し、最高品質の結果を得るために使用する必要があります。 これにより、スライダーを調整して、結果のプロファイル精度と測定値、および計算時間の間の妥協点を選択できます。
+  測定されたパッチの量は、結果のプロファイルの達成可能な精度に影響します。 妥当な品質の 3x3 マトリックスおよびカーブベースのプロファイルの場合、ディスプレイに優れた加法混色特性と直線性があれば、数十のパッチで十分です。 一部のプロ用ディスプレイはそのカテゴリに分類されます。 可能な限り最高の精度が必要な場合は、数百から数千のパッチのLUTベースのプロファイルをお勧めします。 <font weight='bold'>“自動最適化”</font> テストチャート設定は、ディスプレイの非線形性と実際の応答を自動的に考慮し、最高品質の結果を得るために使用する必要があります。 これにより、スライダーを調整して、結果のプロファイル精度と測定値、および計算時間の間の妥協点を選択できます。
 "infoframe.default_text": |-
   
 "infoframe.title": |-
@@ -1481,35 +1481,35 @@
 "input_table": |-
   入力テーブル
 "install_display_profile": |-
-  ディスプレイデバイスプロファイルをインストールします。
+  ディスプレイデバイスプロファイルをインストール
 "install_local_system": |-
   システム全体にインストールする
 "install_user": |-
   現在のユーザーのみにインストール
 "instrument": |-
-  インスツルメント
+  計測器
 "instrument.calibrate": |-
-  機器に遮光キャップを配置するか（該当する場合）、暗いマットな表面、またはその校正基準（該当する場合）に配置し、[OK]を押して機器を自己校正します。
+  計測器に遮光キャップを配置するか (該当する場合) 、暗いマットな表面、またはその校正基準 (該当する場合) に配置し、[OK]を押して計測器を自己校正します。
 "instrument.calibrate.colormunki": |-
-  ColorMunkiセンサーをセルフキャリブレーション位置に設定し、OKを押して機器をキャリブレーションします。
+  ColorMunkiセンサーをセルフキャリブレーション位置に設定し、OKを押して計測器をキャリブレーションします。
 "instrument.calibrate.reflective": |-
-  機器を反射性の白い参照シリアル番号に配置します。 %sを押し、[OK]を押して機器をセルフキャリブレーションします。
+  計測器を反射性の白い参照シリアル番号に配置します。 %sを押し、[OK]を押して計測器をセルフキャリブレーションします。
 "instrument.calibrate.spyderx": |-
-  計器に遮光キャップを付けるか、暗くてつや消しの表面に置き、OKを押して計器を自己校正します。
+  計器に遮光キャップを付けるか、暗くてつや消しの表面に置き、 OK を押して計器を自己校正します。
 "instrument.calibrating": |-
   計測器のキャリブレーション中...
 "instrument.colormunki": |-
   ColorMunki Design/Photo, i1Studio
 "instrument.connect": |-
-  今すぐ測定器を接続してください。
+  今すぐ計測器を接続してください。
 "instrument.initializing": |-
   計測器のセットアップ、お待ちください...
 "instrument.measure_ambient": |-
-  計測器が周囲を測定するために特別なキャップを必要とする場合は、それを取り付けてください。 周囲光を測定するには、ディスプレイの横にある機器を上に置きます。 または、ビューイングブースを測定する場合は、ブース内にメタメリズムのない灰色のカードを置き、機器をブースに向けます。 周囲温度を測定する方法の詳細については、機器のドキュメントを参照してください。 OK を押して測定を開始します。
+  計測器が周囲を測定するために特別なキャップを必要とする場合は、それを取り付けてください。 周囲光を測定するには、ディスプレイの横にある計測器を上に置きます。 または、ビューイングブースを測定する場合は、ブース内にメタメリズムのない灰色のカードを置き、計測器をブースに向けます。 周囲温度を測定する方法の詳細については、計測器のドキュメントを参照してください。 OK を押して測定を開始します。
 "instrument.place_on_screen": |-
-  機器をテストウィンドウに配置し、[OK]をクリックして続行します。
+  計測器をテストウィンドウに配置し、[OK]をクリックして続行します。
 "instrument.place_on_screen.madvr": |-
-  （%i）%sをテストエリアに配置してください
+   (%i) %sをテストエリアに配置してください
 "instrument.reposition_sensor": |-
   計測器センサーの位置が間違っているため、測定に失敗しました。センサーの位置を修正し、[OK]をクリックして続行してください。
 "internal": |-
@@ -1527,13 +1527,13 @@
 "is_linear": |-
   線形です
 "laptop.icc": |-
-  ラップトップ（ガンマ2.2）
+  ラップトップ (ガンマ2.2) 
 level": |-
   レベル
 "libXss.so": |-
   X11スクリーンセーバー拡張機能
 "library.not_found.warning": |-
-  ライブラリ「%s」（%s）が見つかりませんでした。続行する前に、インストールされていることを確認してください。
+  ライブラリ「%s」 (%s) が見つかりませんでした。続行する前に、インストールされていることを確認してください。
 "license": |-
   ライセンス
 "license_info": |-
@@ -1551,29 +1551,29 @@ level": |-
 "lut_access.unsupported": |-
   グラフィックドライバまたはハードウェアは、ロード可能なガンマランプまたはキャリブレーションをサポートしていません。デバイスドライバを更新する必要がある場合があります。
 "macos.bugs.cal.warning": |-
-  macOS プレビューや QuickLook などの AppleCMM （カラーマネジメントモジュール） を使用するアプリケーションは、キャリブレーションブラックポイントの色相補正をサポートしていません。
-  独自のカラーマネジメントを使用するアプリケーション （AdobeACEを使用するAdobeCreative Suite、GIMPやKritaなどのlittleCMSを使用するオープンソースグラフィックスアプリケーション、またはカラーマネジメントに3D LUTを使用するアプリケーションなど） は影響を受けません。
+  macOS プレビューや QuickLook などの AppleCMM  (カラーマネジメントモジュール)  を使用するアプリケーションは、キャリブレーションブラックポイントの色相補正をサポートしていません。
+  独自のカラーマネジメントを使用するアプリケーション  (AdobeACEを使用するAdobeCreative Suite、GIMPやKritaなどのlittleCMSを使用するオープンソースグラフィックスアプリケーション、またはカラーマネジメントに3D LUTを使用するアプリケーションなど)  は影響を受けません。
   
   キャリブレーションブラックポイントの色相補正を無効にしますか？
 "macos.bugs.profile.warning": |-
-  macOS プレビューや QuickLook などの AppleCMM （カラーマネジメントモジュール）を使用するアプリケーションは、黒点補正付きの単一曲線+マトリックス以外の表示プロファイルタイプをサポートしていません。
-  独自のカラーマネジメントを使用するアプリケーション（AdobeACE を使用する AdobeCreative Suite、GIMP や Krita などの littleCMS を使用するオープンソースグラフィックスアプリケーション、またはカラーマネジメントに 3D LUT を使用するアプリケーションなど） は影響を受けません。
+  macOS プレビューや QuickLook などの AppleCMM  (カラーマネジメントモジュール) を使用するアプリケーションは、黒点補正付きの単一カーブ+マトリックス以外の表示プロファイルタイプをサポートしていません。
+  独自のカラーマネジメントを使用するアプリケーション (AdobeACE を使用する AdobeCreative Suite、GIMP や Krita などの littleCMS を使用するオープンソースグラフィックスアプリケーション、またはカラーマネジメントに 3D LUT を使用するアプリケーションなど)  は影響を受けません。
   
-  プロファイルタイプを単一曲線+マトリックスに設定し、黒点補正を有効にしますか？
+  プロファイルタイプを単一カーブ+マトリックスに設定し、黒点補正を有効にしますか？
 "madhcnet.outdated": |-
-  %sで見つかった%sのインストール済みバージョンは古くなっています。最新の madVR バージョン（少なくとも%i.%i.%i.%i）に更新してください。
+  %sで見つかった%sのインストール済みバージョンは古くなっています。最新の madVR バージョン (少なくとも%i.%i.%i.%i) に更新してください。
 "madtpg.launch.failure": |-
   madTPG が見つからなかったか、起動できませんでした。
 "madvr.not_found": |-
   madVRDirectShow フィルターがレジストリに見つかりませんでした。インストールされていることを確認してください。
 "madvr.outdated": |-
-  使用されている madVR のバージョンは古くなっています。最新バージョン（少なくとも%i.%i.%i.%i）に更新してください。
+  使用されている madVR のバージョンは古くなっています。最新バージョン (少なくとも%i.%i.%i.%i) に更新してください。
 "madvr.wrong_levels_detected": |-
-  RGB レベル 0 と 16 の間で測定された輝度差は、0.02cd /m²未満です。 グラフィックカードドライバがフルレンジ RGB（0-255） を出力するように設定されている場合、ディスプレイデバイスの入力および/または黒レベル設定が正しくないか、グラフィックカードまたは madVR の出力レベル構成が間違っています。 ディスプレイデバイスの madVR の出力レベルをTVレベル （16〜235） に変更してください。
+  RGB レベル 0 と 16 の間で測定された輝度差は、0.02cd /m²未満です。 グラフィックカードドライバがフルレンジ RGB (0-255)  を出力するように設定されている場合、ディスプレイデバイスの入力およびまたは黒レベル設定が正しくないか、グラフィックカードまたは madVR の出力レベル構成が間違っています。 ディスプレイデバイスの madVR の出力レベルをTVレベル  (16〜235)  に変更してください。
 "magenta": |-
   マゼンタ
 "make_and_model": |-
-  作成とモデル化
+  Make and model
 "manufacturer": |-
   メーカー
 "mastering_display_black_luminance": |-
@@ -1583,17 +1583,17 @@ level": |-
 "matrix": |-
   Matrix
 "matte": |-
-  マット
+  Matte
 "max": |-
-  マックス
+  Max
 "maximal": |-
-  マキシマル
+  Maximal
 "measure": |-
   測定
 "measure.darken_background": |-
   黒の背景
 "measure.darken_background.warning": |-
-  注意：「黒の背景」を選択すると、画面全体が覆われ、ディスプレイ調整ウィンドウが表示されなくなります。マルチスクリーン設定の場合は、測定を開始する前にディスプレイ調整ウィンドウを別の画面に移動するか、キーボードを使用します（測定を中止するには、Qを押します。測定がすでに実行されている場合は、しばらく待ってから、もう一度Qを押します） 。
+  注意：「黒の背景」を選択すると、画面全体が覆われ、ディスプレイ調整ウィンドウが表示されなくなります。マルチスクリーン設定の場合は、測定を開始する前にディスプレイ調整ウィンドウを別の画面に移動するか、キーボードを使用します。 (測定を中止するには、 Q を押します。測定がすでに実行されている場合は、しばらく待ってから、もう一度 Q を押します)  
 "measure.override_display_settle_time_mult": |-
   表示整定時間乗数を上書き
 "measure.override_min_display_update_delay_ms": |-
@@ -1606,9 +1606,9 @@ level": |-
   このウィンドウを画面の中央に配置してください
 "measureframe.info": |-
   測定ウィンドウを目的の画面位置に移動し、必要に応じてサイズを変更します。 ウィンドウ領域のほぼ全体が測定パッチの表示に使用されます。 円は、測定デバイスを配置するためのガイドとして表示されます。
-  窓に測定器を置き、「測定開始」をクリックします。 キャンセルしてメインウィンドウに戻るには、測定ウィンドウを閉じます。
+  窓に計測器を置き、「測定開始」をクリックします。 キャンセルしてメインウィンドウに戻るには、測定ウィンドウを閉じます。
 "measureframe.measurebutton": |-
-  測定を開始します
+  測定を開始
 "measureframe.title": |-
   測定エリア
 "measureframe.zoomin": |-
@@ -1710,17 +1710,17 @@ level": |-
 "menuitem.quit": |-
   終了する
 "menuitem.set_argyll_bin": |-
-  ArgyllCMS 実行可能ファイルを見つけます...
+  ArgyllCMS の bin フォルダを指定...
 "metadata": |-
   メタデータ
 "method": |-
   方法
 "min": |-
-  最小
+  Min
 "minimal": |-
-  最小限
+  Minimal
 "model": |-
-  モデル
+  Model
 "motion_picture_film_scanner": |-
   映画フィルムスキャナー
 "mswin.open_display_settings": |-
@@ -1770,15 +1770,15 @@ level": |-
 "observer.shaw": |-
   Shaw & Fairchild 1997 2°
 "oem.import.auto": |-
-  比色計に Windows 用のソフトウェアCDが付属している場合は、今すぐ挿入してください（ソフトウェアの自動インストールの可能性はありません）。
+  比色計に Windows 用のソフトウェア CD が付属している場合は、今すぐ挿入してください (ソフトウェアの自動インストールの可能性はありません) 。
   
   CD がなく、必要なファイルが見つからない場合は、Web からダウンロードされます。
 "oem.import.auto.download_selection": |-
-  検出された機器に基づいて事前選択が行われました。ダウンロードするファイルを選択してください。
+  検出された計測器に基づいて事前選択が行われました。ダウンロードするファイルを選択してください。
 "oem.import.auto_windows": |-
   比色計のベンダーソフトウェアがインストールされている場合、ほとんどの場合、必要なファイルが自動的に見つかります。
 "office_web.icc": |-
-  Office＆Web（D65、ガンマ2.2）
+  Office＆Web (D65、ガンマ2.2) 
 "offset": |-
   オフセット
 "offset_lithography": |-
@@ -1818,7 +1818,7 @@ level": |-
 "patches": |-
   パッチ
 "patterngenerator.prisma.specify_host": |-
-  Prisma ビデオプロセッサのホスト名を指定してください。例： Prisma-0123（Windows） または prisma-0123.local（Linux / Mac OS X）。 Prisma の管理 Web インターフェイスを介して変更されていない限り、Prisma の下側のラベルにホスト名があります。または、IP アドレス（わかっている場合）を入力します。例： 192.168.1.234
+  Prisma ビデオプロセッサのホスト名を指定してください。例： Prisma-0123 (Windows)  または prisma-0123.local (Linux / Mac OS X) 。 Prisma の管理 Web インターフェイスを介して変更されていない限り、Prisma の下側のラベルにホスト名があります。または、IP アドレス (わかっている場合) を入力します。例： 192.168.1.234
 "patterngenerator.sync_lost": |-
   パターンジェネレーターとの同期が失われました。
 "pause": |-
@@ -1840,7 +1840,7 @@ level": |-
 "perceptual": |-
   知覚的
 "photo.icc": |-
-  写真（D50、ガンマ2.2）
+  写真 (D50、ガンマ2.2) 
 "photo_imagesetter": |-
   写真画像セッター
 "photography_paper_printer": |-
@@ -1856,7 +1856,7 @@ level": |-
 "preferred_cmm": |-
   優先CMM
 "prepress.icc": |-
-  プリプレス（D50、130cd /m²、L *）
+  プリプレス (D50、130cd /m²、L *) 
 "preserve_hue": |-
   色相を保持する
 "preserve_luminance": |-
@@ -1886,7 +1886,7 @@ level": |-
 "profile.do_not_install": |-
   プロファイルをインストールしないでください
 "profile.iccv4.unsupported": |-
-  バージョン4の ICC プロファイルはサポートされていません。
+  バージョン 4の ICC プロファイルはサポートされていません。
 "profile.import.success": |-
   プロファイルがインポートされました。 「カラー」システム設定で手動で割り当ててアクティブ化する必要がある場合があります。
 "profile.info": |-
@@ -1914,7 +1914,7 @@ level": |-
 "profile.load_on_login": |-
   ログイン時にキャリブレーションをロード
 "profile.load_on_login.handled_by_os": |-
-  オペレーティングシステムにキャリブレーションの読み込みを処理させます（精度と信頼性が低い）
+  オペレーティングシステムにキャリブレーションの読み込みを処理させます (精度と信頼性が低い) 
 "profile.name": |-
   プロファイル名
 "profile.name.placeholders": |-
@@ -1940,7 +1940,7 @@ level": |-
 "profile.no_embedded_ti3": |-
   プロファイルには、Argyll 互換の測定データは含まれていません。
 "profile.no_vcgt": |-
-  プロファイルには検量線が含まれていません。
+  プロファイルにはキャリブレーションカーブが含まれていません。
 "profile.only_named_color": |-
   タイプ「NamedColor」のプロファイルのみを使用できます。
 "profile.quality": |-
@@ -1960,13 +1960,13 @@ level": |-
 "profile.self_check.rms": |-
   RMS
 "profile.set_save_path": |-
-  保存パスを選択してください...
+  保存先を選択...
 "profile.settings": |-
   プロファイリング設定
 "profile.share": |-
   プロファイルをアップロード...
 "profile.share.avg_dE_too_high": |-
-  プロファイルは、高すぎるデルタEを生成します（実際=%s、しきい値=%s）。
+  プロファイルは、高すぎるデルタEを生成します (実際=%s、しきい値=%s) 。
 "profile.share.b2a_resolution_too_low": |-
   プロファイルの PCS からデバイステーブルへの解像度が低すぎます。
 "profile.share.enter_info": |-
@@ -2023,7 +2023,7 @@ level": |-
 "profile.type.single_shaper_matrix": |-
   Single curve + matrix
 "profile.unsupported": |-
-  サポートされていないプロファイルタイプ（%s）および/または色空間（%s）。
+  サポートされていないプロファイルタイプ (%s) および/または色空間 (%s) 。
 "profile.update": |-
   プロファイルを更新する
 "profile_associations": |-
@@ -2035,7 +2035,7 @@ level": |-
 "profile_class": |-
   プロファイルクラス
 "profile_connection_space_pcs": |-
-  プロファイル接続スペース（PCS）
+  プロファイル接続スペース (PCS) 
 "profile_loader": |-
   プロファイルローダー
 "profile_loader.disable": |-
@@ -2052,13 +2052,13 @@ level": |-
   先に進む前に、上記のプロファイルの関連付けが正しいことを確認してください。そうでない場合は、次の手順に従います。
   
   1.Windows の表示設定を開きます。
-  2.接続されているすべてのディスプレイ（拡張デスクトップ）をアクティブにします。
+  2.接続されているすべてのディスプレイ (拡張デスクトップ) をアクティブにします。
   3.プロファイルの関連付けを開きます。
   4.各ディスプレイデバイスに正しいプロファイルが割り当てられていることを確認します。次に、プロファイルの関連付けを閉じます。
   5.Windows のディスプレイ設定で、以前のディスプレイ構成に戻り、ディスプレイ設定を閉じます。
   6.これで、「プロファイルの関連付けを自動的に修正する」を有効にできます。
 "profile_loader.info": |-
-  キャリブレーション状態は、今日までに%i時間（再）適用されました。
+  キャリブレーション状態は、今日までに%i時間 (再) 適用されました。
   メニューのアイコンを右クリックします。
 "profiling": |-
   プロファイリング
@@ -2073,11 +2073,11 @@ level": |-
 "projector_mode_unavailable": |-
   プロジェクターモードは、ArgyllCMS1.1.0ベータ以降でのみ使用できます。
 "quality.ultra.warning": |-
-  超高品質は、ほとんど使用されるべきではないことを証明する場合を除いて、ほとんど使用されるべきではありません（長い処理時間！）。 代わりに、高品質または中品質を選択してください。
+  Ultra quality は、ほとんど使用されるべきではないことを証明する場合を除いて、ほとんど使用されるべきではありません (長い処理時間！) 。 代わりに、High または Medium を選択してください。
 "readme": |-
   ReadMe
 "ready": |-
-  準備。
+  Ready.
 "red": |-
   Red
 "red_gamma": |-
@@ -2105,13 +2105,13 @@ level": |-
 "reflective_scanner": |-
   反射型スキャナー
 "remaining_time": |-
-  残り時間（ca.）
+  残り時間 (ca.) 
 "remove": |-
   削除する
 "rendering_intent": |-
   レンダリングインテント
 "report": |-
-  報告する
+  レポート
 "report.calibrated": |-
   キャリブレーションされたディスプレイデバイスに関するレポート
 "report.uncalibrated": |-
@@ -2161,7 +2161,7 @@ level": |-
 "self_check_report": |-
   セルフチェックレポート...
 "serial_number": |-
-  シリアル番号。
+  Serial no.
 "set_as_default": |-
   デフォルトとして設定
 "setting.keep_current": |-
@@ -2171,19 +2171,19 @@ level": |-
 "settings.basic": |-
   基本設定
 "settings.new": |-
-  <現在>
+  <Current>
 "settings_loaded": |-
-  検量線と次のキャリブレーション設定がロードされています：%s。他のキャリブレーションオプションはデフォルトに復元されており、プロファイリングオプションは変更されていません。
+  キャリブレーションカーブと次のキャリブレーション設定がロードされています：%s。他のキャリブレーションオプションはデフォルトに復元されており、プロファイリングオプションは変更されていません。
 "settings_loaded.cal": |-
-  プロファイルには、キャリブレーション設定のみが含まれていました。その他のオプションは変更されていません。検量線が見つかりません。
+  プロファイルには、キャリブレーション設定のみが含まれていました。その他のオプションは変更されていません。キャリブレーションカーブが見つかりません。
 "settings_loaded.cal_and_lut": |-
-  プロファイルには、キャリブレーション設定のみが含まれていました。他のオプションは変更されておらず、検量線がロードされています。
+  プロファイルには、キャリブレーション設定のみが含まれていました。他のオプションは変更されておらず、キャリブレーションカーブがロードされています。
 "settings_loaded.cal_and_profile": |-
-  設定が読み込まれました。検量線が見つかりません。
+  設定が読み込まれました。キャリブレーションカーブが見つかりません。
 "settings_loaded.profile": |-
-  プロファイルには、プロファイリング設定のみが含まれていました。その他のオプションは変更されていません。検量線が見つかりません。
+  プロファイルには、プロファイリング設定のみが含まれていました。その他のオプションは変更されていません。キャリブレーションカーブが見つかりません。
 "settings_loaded.profile_and_lut": |-
-  プロファイルには、プロファイリング設定のみが含まれていました。他のオプションは変更されておらず、検量線がロードされています。
+  プロファイルには、プロファイリング設定のみが含まれていました。他のオプションは変更されておらず、キャリブレーションカーブがロードされています。
 "sharp": |-
   シャープ
 "show_advanced_options": |-
@@ -2211,19 +2211,19 @@ level": |-
 "ssl.handshake_failure": |-
   ハンドシェイクの失敗。安全な接続を確立できませんでした。
 "startup": |-
-  起動...
+  起動中...
 "startup_sound.enable": |-
   起動音を有効にする
 "success": |-
   ...ok.
 "surround_xyz": |-
-  XYZを囲む
+  Surround XYZ
 "synthicc.create": |-
   合成ICCプロファイルを作成します...
 "target": |-
   ターゲット
 "tc.3d": |-
-  診断3Dファイルを作成する
+  診断 3D ファイルを作成する
 "tc.I": |-
   知覚空間本体中心の立方グリッド
 "tc.Q": |-
@@ -2253,7 +2253,7 @@ level": |-
 "tc.multidim": |-
   多次元
 "tc.multidim.patches": |-
-  ステップ=%sパッチ（%sニュートラル）
+  ステップ=%sパッチ (%sニュートラル) 
 "tc.neutral_axis_emphasis": |-
   中立軸の強調
 "tc.ofp": |-
@@ -2281,7 +2281,7 @@ level": |-
 "tc.t": |-
   インクリメンタルファーポイントサンプリング
 "tc.vrml.black_offset": |-
-  RGB ブラックオフセット（L*）
+  RGB ブラックオフセット (L*) 
 "tc.vrml.use_D50": |-
   ニュートラル RGB ホワイト
 "tc.white": |-
@@ -2337,7 +2337,7 @@ level": |-
 "testchart.separate_fixed_points": |-
   別の手順で追加するパッチを選択してください。
 "testchart.set": |-
-  テストチャートファイルを選択してください...
+  テストチャートファイルを選択...
 "testchart.shift_interleave": |-
   シフト＆インターリーブ
 "testchart.sort_RGB_blue_to_top": |-
@@ -2371,7 +2371,7 @@ level": |-
 "testchart.sort_by_RGB_sum": |-
   RGB の合計で並べ替え
 "testchart.sort_by_rec709_luma": |-
-  ルマで並べ替え
+  輝度で並べ替え
 "testchart.vary_RGB_difference": |-
   RGB の違いを変える
 "testchart_or_reference": |-
@@ -2395,13 +2395,13 @@ level": |-
 "tray_icon_animation": |-
   トレイアイコンのアニメーション
 "trc": |-
-  トーンカーブ
+  Tone curve
 "trc.dicom": |-
   DICOM
 "trc.gamma": |-
-  ガンマ
+  Gamma
 "trc.hlg": |-
-  ハイブリッドログガンマ
+  Hybrid Log-Gamma
 "trc.lstar": |-
   L*
 "trc.rec709": |-
@@ -2409,21 +2409,21 @@ level": |-
 "trc.rec1886": |-
   Rec. 1886
 "trc.should_use_viewcond_adjust": |-
-  SMPTE 240M または Rec.709 カーブを使用する場合、正しい結果を得るには、周囲光レベルの調整も使用する必要があります。 これを行うには、「周囲光レベル」の近くのチェックボックスをオンにして、ルクスで値を入力します。 機器でサポートされている場合は、オプションでキャリブレーション中に周囲光を測定することもできます。
+  SMPTE 240M または Rec.709 カーブを使用する場合、正しい結果を得るには、周囲光レベルの調整も使用する必要があります。 これを行うには、「周囲光レベル」の近くのチェックボックスをオンにして、ルクスで値を入力します。 計測器でサポートされている場合は、オプションでキャリブレーション中に周囲光を測定することもできます。
 "trc.smpte240m": |-
   SMPTE 240M
 "trc.smpte2084": |-
   SMPTE 2084
 "trc.smpte2084.hardclip": |-
-  SMPTE 2084（ハードクリップ）
+  SMPTE 2084 (hard clip) 
 "trc.smpte2084.rolloffclip": |-
-  SMPTE 2084（ロールオフ）
+  SMPTE 2084 (roll-off) 
 "trc.srgb": |-
   sRGB
 "trc.type.absolute": |-
-  絶対
+  Absolute
 "trc.type.relative": |-
-  相対的
+  Relative
 "turn_off": |-
   消す
 "turn_on": |-
@@ -2431,7 +2431,7 @@ level": |-
 "type": |-
   タイプ
 "udev_hotplug.unavailable": |-
-  udevもホットプラグも検出されませんでした。
+  udev もホットプラグも検出されませんでした。
 "unassigned": |-
   未割り当て
 "uninstall": |-
@@ -2469,7 +2469,7 @@ level": |-
 "use_simulation_profile_as_output": |-
   シミュレーションプロファイルとしてディスプレイプロファイルを使用する
 "vcgt": |-
-  検量線
+  キャリブレーションカーブ
 "vcgt.mismatch": |-
   ディスプレイ%sのビデオカードガンマテーブルが目的の状態と一致しません。
 "vcgt.unknown_format": |-
@@ -2487,9 +2487,9 @@ level": |-
 "verify_large.ti1": |-
   大規模な検証テストチャート
 "verify_video.ti1": |-
-  検証テストチャート（ビデオ）
+  検証テストチャート (ビデオ) 
 "verify_video_extended.ti1": |-
-  拡張検証テストチャート（video）
+  拡張検証テストチャート (video) 
 "verify_video_extended_hlg_p3_2020.ti1": |-
   拡張検証テストチャート(HDR video, Rec. 2020/P3, Hybrid Log-Gamma)
 "verify_video_extended_smpte2084_100_p3_2020.ti1": |-
@@ -2501,13 +2501,13 @@ level": |-
 "verify_video_extended_smpte2084_1000_p3_2020.ti1": |-
   拡張検証テストチャート(HDR video, Rec. 2020/P3, SMPTE 2084, 1000 cd/m²)
 "verify_video_large.ti1": |-
-  大規模な検証テストチャート（ビデオ）
+  大規模な検証テストチャート (ビデオ) 
 "verify_video_xl.ti1": |-
-  特大検証テストチャート（ビデオ）
+  特大検証テストチャート (ビデオ) 
 "verify_video_xxl.ti1": |-
-  XXL検証テストチャート（ビデオ）
+  XXL検証テストチャート (ビデオ) 
 "verify_video_xxxl.ti1": |-
-  XXXL検証テストチャート（ビデオ）
+  XXXL検証テストチャート (ビデオ) 
 "verify_xl.ti1": |-
   特大検証テストチャート
 "verify_xxl.ti1": |-
@@ -2561,22 +2561,22 @@ level": |-
 "warning.input_value_clipping": |-
   警告：ディスプレイプロファイルのブラックポイントより下の値はクリップされます！
 "warning.suspicious_delta_e": |-
-  警告：疑わしい測定値が見つかりました。 このチェックは、sRGB のようなディスプレイデバイスを想定していることに注意してください。 ディスプレイデバイスがこの仮定と異なる場合（たとえば、色域が非常に広い場合や、トーン応答が sRGB から遠すぎる場合）、検出されたエラーはおそらく意味がありません。
+  警告：疑わしい測定値が見つかりました。 このチェックは、sRGB のようなディスプレイデバイスを想定していることに注意してください。 ディスプレイデバイスがこの仮定と異なる場合 (たとえば、色域が非常に広い場合や、トーン応答が sRGB から遠すぎる場合) 、検出されたエラーはおそらく意味がありません。
   
   次の基準の1つまたはすべてが一致しました。
   
   •RGB 番号が異なるが、測定値の ΔE*00 が互いに疑わしいほど低い連続パッチ。
-  •前のパッチに向かって RGB 数が増加しているが、明度（L*）が減少している RGB グレー。
-  •RGB グレー。前のパッチに向かって RGB 数が減少しますが、明度（L*）は増加します。
+  •前のパッチに向かって RGB 数が増加しているが、明度 (L*) が減少している RGB グレー。
+  •RGB グレー。前のパッチに向かって RGB 数が減少しますが、明度 (L*) は増加します。
   •RGB 数に相当する sRGB に対する測定値の ΔE*00 および ΔL*00 または ΔH*00 または ΔC*00 が異常に高い。
   
-  これは、測定誤差を示唆する可能性があります。問題があると見なされる値（真である必要はありません！）は赤で強調表示されます。 測定値を注意深く確認し、受け入れたいものにマークを付けます。 RGB 値と XYZ 値を編集することもできます。
+  これは、測定誤差を示唆する可能性があります。問題があると見なされる値 (真である必要はありません！) は赤で強調表示されます。 測定値を注意深く確認し、受け入れたいものにマークを付けます。 RGB 値と XYZ 値を編集することもできます。
 "warning.suspicious_delta_e.info": |-
   Δ列の説明：
   
   ΔE*00 XYZ A/B：前のパッチの測定値に対する測定値のΔE*00。 この値が欠落している場合は、チェック中の要因ではありませんでした。 存在する場合は、低すぎると見なされます。
   
-  0.5 ΔE*00 RGB A/B：前のパッチの RGB 番号に相当する sRGB に向けた RGB 番号に相当する sRGB の ΔE*00（係数0.5）。 この値が存在する場合は、想定されるΔE*00 XYZ A/B が低すぎるかどうかをチェックする際の比較（最小）値を表します。 それは非常に大まかな方向として機能します。
+  0.5 ΔE*00 RGB A/B：前のパッチの RGB 番号に相当する sRGB に向けた RGB 番号に相当する sRGB の ΔE*00 (係数0.5) 。 この値が存在する場合は、想定されるΔE*00 XYZ A/B が低すぎるかどうかをチェックする際の比較 (最小) 値を表します。 それは非常に大まかな方向として機能します。
   
   ΔE*00 RGB-XYZ： RGB 数に相当する sRGB に対する測定値の ΔE*00。
   ΔL*00 RGB-XYZ： RGB 数に相当する sRGB に対する測定値の ΔL*00。
@@ -2603,7 +2603,7 @@ level": |-
 "whitepoint.colortemp.locus.daylight": |-
   Daylight
 "whitepoint.set": |-
-  また、ホワイトポイントを測定値に設定しますか？
+  ホワイトポイントを測定値に設定しますか？
 "whitepoint.simulate": |-
   ホワイトポイントをシミュレートする
 "whitepoint.simulate.relative": |-
@@ -2611,15 +2611,15 @@ level": |-
 "whitepoint.visual_editor": |-
   ビジュアルホワイトポイントエディタ
 "whitepoint.visual_editor.display_changed.warning": |-
-  重要：表示構成が変更され、ビジュアル・ホワイトポイント・エディターが表示プロファイルを正しく復元できなくなる可能性があります。エディターを閉じてDisplayCALを再起動した後、ディスプレイプロファイルの関連付けを注意深く確認してください。
+  重要：表示構成が変更され、ビジュアル・ホワイトポイント・エディターが表示プロファイルを正しく復元できなくなる可能性があります。 エディターを閉じて DisplayCAL を再起動した後、ディスプレイプロファイルの関連付けを注意深く確認してください。
 "whitepoint.xy": |-
   色度座標
 "window.title": |-
   DisplayCAL
 "windows.version.unsupported": |-
-  このバージョンのWindowsはサポートされていません。
+  このバージョンの Windows はサポートされていません。
 "windows_only": |-
-  Windowsのみ
+  Windows のみ
 "working_dir": |-
   作業ディレクトリ：
 "xyz_scaling": |-
